@@ -3,7 +3,8 @@
 }
 body {
     font-family: 'Oswald', sans-serif;
-    min-width: 1000px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .header {
@@ -19,7 +20,6 @@ body {
 .cafe__title {
     font-weight: 500;
     font-size: 36px;
-    line-height: 53px;
     text-transform: uppercase;
 }
 .menu__ul {
@@ -30,7 +30,6 @@ body {
 .menu__li {
     font-weight: 300;
     font-size: 24px;
-    line-height: 36px;
     text-transform: uppercase;
 }
 .menu__link {
@@ -46,7 +45,6 @@ body {
     background-image:  url(photo-1494415859740-21e878dd929d.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    min-width: 1440px;
 }
 .img_title {
     height:  355px;
@@ -55,7 +53,6 @@ body {
     align-items: flex-end;
     font-weight: 700;
     font-size: 60px;
-    line-height: 89px;
     text-transform: uppercase;
     color: white;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -66,5 +63,24 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 10px;
     background-color: #817070;
     margin: 7px auto 0;
-    
+}
+.story_title {
+    margin: 60px 0;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.story {
+    margin: 0 80px 60px 123px;
+    display: flex;
+}
+.story_img {
+    width: 600px;
+    height: 400px;
+}
+.story_text {
+    margin-left: 40px;
+    font-weight: 300;
+    font-size: 20px;
 }
