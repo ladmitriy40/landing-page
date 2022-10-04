@@ -74,6 +74,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .story {
     margin: 0 80px 60px 123px;
     display: flex;
+    align-items: center;
 }
 .story_img {
     width: 600px;
