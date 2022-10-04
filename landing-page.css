@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 80px;
+    padding:0 80px;
 }
 .menu {
     width: 341px;
@@ -65,7 +65,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 7px auto 0;
 }
 .story_title {
-    margin: 60px 0;
+    padding: 60px 0;
     font-weight: 500;
     font-size: 36px;
     text-transform: uppercase;
@@ -81,6 +81,114 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .story_text {
     margin-left: 40px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.blog {
+    background-color:#EFEFEF;
+    padding-bottom: 65px;
+}
+.blog_title {
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60px 0;
+}
+.cards_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 102px 65px;
+}
+.card {
+    width: 365px;
+    height: 474px;
+    background-color: white;
+}
+.card_title {
+    font-weight: 400px;
+    font-size: 24px;
+    padding: 20px 0 0 20px;
+}
+.card_img {
+    width: 325px;
+    height: 216px;
+    padding: 24px 20px;
+}
+.card_text {
+    font-weight: 300;
+    font-size: 18px;
+    padding: 0 20px;
+}
+.subscribe_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: 337px;
+    background-color: #817070;
+}
+.subscribe-title {
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 28px;
+}
+#email {
+    width: 300px;
+    height: 55px;
+    background-color: #817070;
+    border: 3px solid #FFFFFF;
+    caret-color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align:center;
+}
+#email:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+input::placeholder {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    padding: 9px 0 16px;
+    color: white;
+}
+.submit_container {
+    display: block;
+    margin: auto;
+    padding-top: 28px;
+    text-align: center;
+}
+.submit {
+    width: 129px;
+    height: 55px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:#817070; 
+    border: none;
+    text-transform: uppercase;
+}
+.submit:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 72px;
+}
+.copyright_text {
+    padding: 28px 0 14px;
     font-weight: 300;
     font-size: 20px;
 }
